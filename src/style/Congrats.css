@@ -1,0 +1,36 @@
+.modal-content{
+    width: 82% !important;
+    height: 205px;
+}
+
+.modal-dialog{
+  display: flex;
+  justify-content: center;
+}
+
+.test{
+    display: flex;
+  justify-content: center;
+}
+.Modal-details-div h2{
+    font-family: math;
+    font-weight: 700;
+    margin-bottom: 14px;
+}
+.Modal-details-div{
+    text-align: center;
+    margin: 15px 0;
+}
+
+.Modal-details-div p{
+    color: green;
+    font-family: cursive;
+    font-weight: 500;
+}
+
+.Modal-btn-div{
+display: flex;
+display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}

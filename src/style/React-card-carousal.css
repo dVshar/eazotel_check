@@ -1,0 +1,20 @@
+.carousel .thumbs-wrapper {
+    display: none;
+}
+
+.carousel.carousel-slider {
+    height: 100%;
+}
+
+.carousel.carousel-slider .control-arrow {
+    top: 154px;
+}
+
+.carousel-root {
+    height: 100%;
+}
+
+.promo-paragraph {
+    margin-top: 9px;
+    text-align: justify;
+}

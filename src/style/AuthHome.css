@@ -1,0 +1,150 @@
+.AuthHome-div1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 50px 0;
+    padding: 0px 0px;
+    font-family: var(--typography3239713592-wsr-font-family, Madefor, "Helvetica Neue", Helvetica, Arial, "\30E1\30A4\30EA\30AA", "meiryo", "\30D2\30E9\30AE\30CE\89D2\30B4 pro w3", "hiragino kaku gothic pro", sans-serif);
+}
+
+.AuthHome-div1-div1 h1 {
+    font-weight: 700;
+}
+
+.AuthHome-div1-div1 span {
+    font-weight: 100;
+    color: rgb(70, 67, 67);
+}
+
+.AuthHome-div1-div2 {
+    padding-right: 30px;
+}
+
+
+#home-btn {
+    width: 180px;
+    height: 45px;
+    border-radius: 50px;
+}
+
+.Add-icon {
+    margin-right: 8px;
+}
+
+.AuthHome-div2 {
+    width: 100%;
+    background-color: #FDEFF4;
+    min-height: 500px;
+}
+
+.AuthHome-div2-div1 {
+    margin: 15px 0;
+}
+
+.PageCard {
+    margin-top: 45px !important;
+}
+
+.card-body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-title {
+    margin-bottom: 0px !important;
+}
+
+#card-btn {
+    width: 80px;
+    border-radius: 6px;
+}
+
+.CardRow {
+    padding: 5px 15px;
+}
+
+
+.authdiv2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.authdiv2div1 {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    margin-top: 90px;
+}
+
+.authdiv2div1 img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.authdiv2div2 {
+    margin-top: 60px;
+    margin-left: 40px;
+}
+
+.authdiv2-div2-div1 h1 {
+    font-weight: 600;
+    font-family: var(--typography3239713592-wsr-font-family, Madefor, "Helvetica Neue", Helvetica, Arial, "\30E1\30A4\30EA\30AA", "meiryo", "\30D2\30E9\30AE\30CE\89D2\30B4 pro w3", "hiragino kaku gothic pro", sans-serif);
+}
+
+.authdiv2-div2-div1 span {
+    margin: 5px 15px;
+    font-family: var(--typography3239713592-wsr-font-family, Madefor, "Helvetica Neue", Helvetica, Arial, "\30E1\30A4\30EA\30AA", "meiryo", "\30D2\30E9\30AE\30CE\89D2\30B4 pro w3", "hiragino kaku gothic pro", sans-serif);
+}
+
+.authdiv2-div2-div2 {
+    margin: 20px 15px;
+}
+
+.invisible {
+    display: none;
+}
+
+@media screen and (min-width: 580px) and (max-width:768px) {
+    .AuthHome-div1-div2 {
+        padding-right: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #home-btn {
+        width: 168px;
+    }
+}
+
+@media screen and (min-width: 300px) and (max-width:580px) {
+
+    .AuthHome-div1 {
+        flex-direction: column-reverse;
+        padding: 0 26px;
+    }
+
+    .AuthHome-div1-div1 {
+        text-align: center;
+        margin-top: 31px;
+    }
+
+    .AuthHome-div1-div2 {
+        padding-right: 0px;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .authdiv2div2 {
+        display: none;
+    }
+
+    .authdiv2div1 {
+        padding: 0 17px;
+    }
+}

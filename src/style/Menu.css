@@ -1,0 +1,6 @@
+.outer-wrapper {
+    width: 60%;
+    height: 400px;
+    border: 2px solid red;
+    margin: auto auto;
+}
